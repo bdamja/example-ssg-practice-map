@@ -25,8 +25,11 @@ scoreboard objectives add timer dummy ""
 scoreboard objectives add nums dummy
 scoreboard objectives add state dummy
 # state 0 = main lobby
-# state 1 = overworld lobby
-# state 2 = overworld practice etc.
+# state 10 = overworld lobby
+# state 11 = overworld practice
+# state 20 = nether lobby
+# state 21 = nether practice
+# etc.
 
 # add statistic-based objectives
 scoreboard objectives add used_fns minecraft.used:minecraft.flint_and_steel
